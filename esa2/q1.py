@@ -41,7 +41,7 @@ print("#" * 40)
 print("list3 test")
 start_time = time.time()
 indices5 = sorted_indices_without_numpy(list3)
-print("indices of sorted elements without numpy (only first 10 elements):", np.array(indices5))
+print("indices of sorted elements without numpy:", np.array(indices5))
 print("time taken without numpy:", time.time() - start_time)
 
 start_time = time.time()
